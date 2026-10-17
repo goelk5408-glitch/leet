@@ -14,7 +14,7 @@ public:
                 low=mid+1;
             
             }
-            else if(isBadVersion(mid)==true){
+            else {
                 ans=min(mid,ans);
                 high=mid-1;
             }
